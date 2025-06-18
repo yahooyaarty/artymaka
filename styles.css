@@ -18,7 +18,7 @@ body {
 
 /* Логотип и профильная картинка */
 .logo-img {
-    width: 560px; /* Возвращаем фиксированную ширину для десктопа */
+    width: 560px; /* Фиксированная ширина для десктопа */
     height: auto;
     display: block;
     margin: 0 auto;
@@ -145,13 +145,13 @@ nav a {
     }
 
     .logo-img {
-        width: 100%; /* Логотип адаптируется под мобильные устройства */
+        width: 100%; /* Адаптируем логотип под мобильный экран */
         height: auto;
     }
 
     nav a {
-        display: block;
-        margin: 10px 0;
+        display: inline-block; /* Оставляем ссылки в строке */
+        margin: 0 5px; /* Уменьшаем отступы */
     }
 
     .posts-container {
